@@ -1,20 +1,23 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
-  formContext: {
+  resultImc: {
+    flex: 1,
     width: '100%',
-    height: '100%',
-    bottom: 0,
-    backgroundColor: '#FFFFFF',
+    marginTop: 15,
+    paddingTop: 60,
+    borderRadius: 50,
     alignItems: 'center',
-    borderTopLeftRadius: 30,
-    borderTopRightRadius: 30,
-    marginTop: 30,
+    width: '100%'
   },
-  form: {
-      width: '100%',
-      height: 'auto',
-      marginTop: 30,
-      padding: 10,
+  numberImc: {
+    fontSize: 48,
+    color: '#FF0043',
+    fontWeight: 'bold'
+  },
+  information: {
+      fontSize: 18,
+      color: '#FF0043',
+      fontWeight: 'bold'
   }
-});
+})
